@@ -8,7 +8,7 @@ const Movie = () => {
   const { movie, isLoading } = useGlobalContext();
   
   if (isLoading) {
-    return <div className="loading">Loading....</div>;
+    return <div className="loading"></div>;
   }
 
   // Check if movie is null or an empty array (no results)
